@@ -1,0 +1,25 @@
+{
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Voron Polymaker PETG, Uncorrected"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "85"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "85"
+    ],
+    "inherits": "Voron Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Voron Polymaker PETG, Uncorrected",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "version": "2.2.0.4"
+}

@@ -1,0 +1,79 @@
+{
+    "bed_custom_model": "/opt/orca-slicer/resources/profiles/Voron/Voron_120_build_plate.stl",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n",
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.4 nozzle",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num}",
+    "machine_end_gcode": "END_PRINT",
+    "machine_max_acceleration_extruding": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1500",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "350",
+        "200"
+    ],
+    "machine_max_jerk_x": [
+        "30",
+        "12"
+    ],
+    "machine_max_jerk_y": [
+        "30",
+        "12"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "450",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "450",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "30",
+        "12"
+    ],
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL=[initial_tool] TOTAL_LAYER=[total_layer_count]",
+    "max_layer_height": [
+        "0.3"
+    ],
+    "name": "bluev0, James Voron 120",
+    "print_host": "192.168.1.202",
+    "printable_area": [
+        "0x0",
+        "120x0",
+        "120x120",
+        "0x120"
+    ],
+    "printable_height": "120",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "bluev0, James Voron 120",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "version": "2.1.1.0",
+    "wipe": [
+        "0"
+    ]
+}

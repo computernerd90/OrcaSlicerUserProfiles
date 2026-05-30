@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "Prusa MK4 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Prusa MK4 0.4 nozzle - Copy",
+    "print_host": "192.168.1.208",
+    "printer_settings_id": "Prusa MK4 0.4 nozzle - Copy",
+    "printhost_apikey": "HF8ZDTTFuVpCmuU",
+    "version": "2.0.2.0"
+}

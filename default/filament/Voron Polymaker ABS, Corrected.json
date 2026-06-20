@@ -106,7 +106,7 @@
         "Direct Drive Standard"
     ],
     "filament_flow_ratio": [
-        "0.95"
+        "1"
     ],
     "filament_flush_temp": [
         "0"
@@ -196,7 +196,7 @@
         "Voron Polymaker ABS, Corrected"
     ],
     "filament_shrink": [
-        "99.66%"
+        "99.56%"
     ],
     "filament_shrinkage_compensation_z": [
         "100%"

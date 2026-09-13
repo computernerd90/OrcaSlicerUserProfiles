@@ -1,6 +1,7 @@
 {
-	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n",
+	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
 	"from": "User",
+	"host_type": "moonraker",
 	"inherits": "Voron 2.4 350 0.4 nozzle",
 	"layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num}",
 	"machine_end_gcode": "END_PRINT\n; SET_SKEW CLEAR=1",
@@ -52,7 +53,9 @@
 	"max_layer_height": [
 		"0.3"
 	],
-	"name": "James Voron 350",
+	"name": "deere45, James Voron 350, 45 Degrees",
+	"preferred_orientation": "45",
+	"print_host": "192.168.1.238",
 	"printable_height": "250",
 	"printer_extruder_id": [
 		"1"
@@ -60,7 +63,7 @@
 	"printer_extruder_variant": [
 		"Direct Drive Standard"
 	],
-	"printer_settings_id": "James Voron 350",
+	"printer_settings_id": "deere45, James Voron 350, 45 Degrees",
 	"retract_when_changing_layer": [
 		"0"
 	],

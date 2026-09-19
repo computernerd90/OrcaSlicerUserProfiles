@@ -1,0 +1,55 @@
+{
+	"compatible_printers": [
+		"deere - James Voron 350",
+		"deere45, James Voron 350, 45 Degrees"
+	],
+	"fan_cooling_layer_time": [
+		"0"
+	],
+	"fan_max_speed": [
+		"50"
+	],
+	"fan_min_speed": [
+		"50"
+	],
+	"filament_cost": [
+		"25"
+	],
+	"filament_density": [
+		"1.03"
+	],
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_flow_ratio": [
+		"0.98"
+	],
+	"filament_settings_id": [
+		"Polymaker ABS at deere"
+	],
+	"filament_shrink": [
+		"99.4%"
+	],
+	"filament_vendor": [
+		"Polymaker"
+	],
+	"from": "User",
+	"hot_plate_temp": [
+		"110"
+	],
+	"hot_plate_temp_initial_layer": [
+		"110"
+	],
+	"inherits": "Generic ABS @System",
+	"name": "Polymaker ABS at deere",
+	"nozzle_temperature": [
+		"255"
+	],
+	"nozzle_temperature_initial_layer": [
+		"255"
+	],
+	"slow_down_layer_time": [
+		"15"
+	],
+	"version": "2.1.1.0"
+}

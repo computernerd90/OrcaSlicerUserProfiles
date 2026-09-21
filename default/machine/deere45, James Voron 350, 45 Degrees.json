@@ -1,5 +1,5 @@
 {
-	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
+	"before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n",
 	"from": "User",
 	"host_type": "moonraker",
 	"inherits": "Voron 2.4 350 0.4 nozzle",
